@@ -1,0 +1,13 @@
+server:
+  port: 4000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Task1DB
+    username: postgres
+    password: 123
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
